@@ -1,0 +1,21 @@
+@media(max-width:4096px){
+	#first{
+		font-size:40px;
+	}
+}
+@media(min-device-width:320px) and (max-device-width:415px){
+	center > h3{
+		font-size:10vw;
+	}
+	.flexering > ul:nth-child(1) >li > h5 > b{
+		font-size:5vw;
+	}
+	#first{
+		font-size:7vw;
+	
+	}
+	#cjumbo{
+		width:120vw;
+	}
+
+}

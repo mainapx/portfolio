@@ -1,0 +1,15 @@
+@media(min-device-width:320px) and (max-device-width:415px){
+	#imgid > ul > li > img{
+		height:80vw;
+		width:110vw;
+		left:5vw;
+		margin-bottom:2vw;
+		position: relative;
+	}
+		center > h2{
+		font-size:10vw;
+		position: relative;
+		left:10vw;
+	}
+
+}

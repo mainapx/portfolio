@@ -1,0 +1,54 @@
+body{
+	overflow-x:hidden;
+}
+#testing,#footer{
+	background-color:black;
+	margin:0;
+}
+center >h4{
+	text-decoration: underline;
+	text-decoration-style:double;
+}
+@media(max-width:4096px){
+	#footer > li > button >i{
+		font-size:40px;
+		bottom:0;
+		margin-bottom:0;
+		justify-content: right;
+		padding-bottom:0;
+		color:white;
+	}
+	footer >#testing{
+		background-color:white;
+		display:flex;
+		justify-content: space-between;
+	}
+
+	#footer{
+		justify-content: space-between;
+		position: relative;
+		float:right;
+	}
+	center > h4{
+		position:relative;
+		left:0vw;
+	}
+	#footer > li{
+		margin-right:10px;
+	}
+}
+@media(min-device-width:320px) and (max-device-width:415px){
+	h4{
+		font-size:5vw;
+
+	}
+	footer > #footer > li >  button > i{
+		font-size:10vw;
+		background-color:transparent;
+	}
+	#footer{
+		justify-content: center;
+	}
+
+
+}

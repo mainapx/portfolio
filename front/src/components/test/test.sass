@@ -1,0 +1,27 @@
+$myclr:black
+body
+	background-color:black
+
+$colortest:yellow
+$bordertest: 5px solid white
+
+body form input
+	background-color:$colortest
+	border:$bordertest
+
+@mixin inline-animation($duration)
+	@keyframes inline-animation
+		@content
+	animation-name:inline-animation
+	animation-duration:$duration
+
+
+input		
+	@include inline-animation(10s)
+		from
+			background-color:$myclr
+		to
+			background-color:$colortest
+
+h4
+	color:white

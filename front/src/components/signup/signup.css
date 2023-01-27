@@ -1,0 +1,50 @@
+
+@media(max-width:4096px){
+	#signbtn{
+		color:white;
+		width:100%;
+		font-size:20px;
+	}
+	a[data-dismiss]{
+		font-size:20px;
+		color:#ffffff;
+	}
+
+}
+@media(min-device-width:320px) and (max-device-width:415px)
+{
+	.modal-title > center {
+		 font-size:8vw;
+		 position: relative;;
+		 left:40vw;
+	}
+	#signbtn{
+		font-size:8vw;
+	}
+	.modal-content{
+		position: relative;
+		right:55%;
+		width:105vw;
+		top:50vw;
+		line-height:8vw;
+	}
+	.modal-body > .form-group > input{
+		font-size:8vw;
+		border:5px solid;
+	}
+		a[data-dismiss]{
+		font-size:10vw;
+		color:#ffffff;
+	}
+	.form-group{
+		position:relative;
+		padding-left:3vw;
+	}
+	.modal-backdrop{
+		background-color:transparent;
+	}
+	#mymodal{
+		background-color:#5351DF;
+		width:120vw;
+	}
+}
